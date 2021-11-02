@@ -1,0 +1,31 @@
+@mixin link {
+    color: $white;
+    font-weight: 500;
+    text-decoration: none;
+
+    &:hover {
+        color: $orange;
+    }
+}
+
+@mixin icon {
+    color: $orange;
+    font-size: 1rem;
+    padding: .5rem;
+
+    &--sm {
+        font-size: 1rem;
+    }
+
+    &--md {
+        font-size: 2rem;
+    }
+
+    &--xl {
+        font-size: 3rem;
+    }
+
+    &--xxl {
+        font-size: 4rem;
+    }
+}
