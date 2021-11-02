@@ -1,0 +1,39 @@
+.column-image {
+    overflow: hidden;
+
+    &--left {
+        padding-right: 0 !important;
+    }
+
+    &--right {
+        padding-left: 0 !important;
+    }
+
+    & .img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    @media(max-width: 767px) {
+        padding: 1rem 0;
+    }
+}
+
+.column-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @media(min-width: 767px) {
+        &--left {
+            padding-right: 2rem;
+        }
+    
+        &--right {
+            padding-left: 2rem;
+        }
+    }
+}
