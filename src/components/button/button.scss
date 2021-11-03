@@ -1,0 +1,28 @@
+@import "../../styles_global/styles.scss";
+
+
+.btn-orange {
+    @extend .btn;
+    color: $white;
+    background-color: transparent;
+    border: 2px solid $white;
+    font-weight: 500;
+
+    &:hover {
+        color: white;
+        background-color: #e74c3c;
+    }
+
+    &:focus-visible {
+        outline: 2px solid $orange;
+    }
+
+    &:focus {
+        border-color: white;
+        box-shadow: 0 0 0 .25rem rgba($color: $white, $alpha: .25);
+    }
+
+    & a:hover {
+        color: white;
+    }
+}
