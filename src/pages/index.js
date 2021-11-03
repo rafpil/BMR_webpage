@@ -10,6 +10,7 @@ import Hero from "../page-elements/hero/hero";
 import About from "../page-elements/about/about";
 import Services from "../page-elements/services/services";
 import Team from "../page-elements/team/team";
+import Gallery from "../page-elements/gallery/gallery";
 import Map from "../page-elements/map/map";
 
 
@@ -23,6 +24,7 @@ const IndexPage = () => (
     <About />
     <Services />
     <Team />
+    <Gallery />
     <Map />
   </Layout>
 )
