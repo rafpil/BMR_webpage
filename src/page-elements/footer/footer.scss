@@ -1,0 +1,16 @@
+@import "../../styles_global/variables.scss";
+@import "../../styles_global/mixins.scss";
+
+.footer {
+    background-color: $dark;
+    padding: 2rem;
+
+    a {
+        @include link;
+    }
+
+    span {
+        display: block;
+        text-align: center;
+    }
+}
