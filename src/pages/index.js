@@ -7,6 +7,7 @@ import "../styles_global/styles.scss";
 import About from "../page-elements/about/about";
 import Services from "../page-elements/services/services";
 import Team from "../page-elements/team/team";
+import Map from "../page-elements/map/map";
 
 
 const IndexPage = () => (
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <About />
     <Services />
     <Team />
+    <Map />
   </>
 )
 
