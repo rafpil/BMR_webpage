@@ -1,0 +1,15 @@
+@import "../../styles_global/variables.scss";
+@import "../../styles_global/mixins.scss";
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $black;
+    padding: 1rem;
+
+    a {
+        @include link;
+    }
+}
