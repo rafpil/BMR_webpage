@@ -11,6 +11,7 @@ import About from "../page-elements/about/about";
 import Services from "../page-elements/services/services";
 import Team from "../page-elements/team/team";
 import Gallery from "../page-elements/gallery/gallery";
+import Contact from "../page-elements/contact/contact";
 import Map from "../page-elements/map/map";
 
 
@@ -25,6 +26,7 @@ const IndexPage = () => (
     <Services />
     <Team />
     <Gallery />
+    <Contact />
     <Map />
   </Layout>
 )
