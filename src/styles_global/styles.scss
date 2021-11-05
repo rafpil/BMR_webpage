@@ -21,3 +21,10 @@ body {
         outline: 2px solid $orange;
     }
 }
+
+.active {
+    a {
+        color: $orange;
+        animation: markMenu 1s;
+    }
+}
