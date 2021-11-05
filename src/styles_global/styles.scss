@@ -22,6 +22,11 @@ body {
     }
 }
 
+.section-header {
+    font-size: 2.25rem;
+    padding: 5rem 1rem 0 0;
+}
+
 .active {
     a {
         color: $orange;
