@@ -1,7 +1,6 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
-
 import Section from "../../components/section/section";
 import Column from "../../components/column/column";
 
@@ -21,7 +20,7 @@ const About = () => {
           modi voluptas recusandae nostrum tenetur voluptatem officia at velit
           voluptates hic? Dignissimos culpa aut quia omnis quasi dolore voluptas
           magnam vero, temporibus suscipit! Atque iusto aepe adipisci,
-          laudantium illum animi quia  dolores dicta inventore praesentium vitae
+          laudantium illum animi quia dolores dicta inventore praesentium vitae
           fuga tempora, sequi quae suscipit. Alias, itaque tempore numquam
           facilis veritatis ex quam laudantium aspernatur sed, et re doloribus
           in voluptates fugiat cum ipsa quae accusamus? Corporis fugit non odio

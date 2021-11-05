@@ -1,9 +1,8 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 import { Container, Row, Col } from "react-bootstrap";
 
-
-import "./copyright.scss"
+import "./copyright.scss";
 
 function Copyright() {
   return (
@@ -24,7 +23,7 @@ function Copyright() {
         </Col>
       </Row>
     </Container>
-  )
+  );
 }
 
-export default Copyright
+export default Copyright;

@@ -1,7 +1,7 @@
-import { StaticImage } from "gatsby-plugin-image"
-import React from "react"
+import { StaticImage } from "gatsby-plugin-image";
+import React from "react";
 
-import "./hero.scss"
+import "./hero.scss";
 
 const Hero = (props) => {
   return (
@@ -16,7 +16,7 @@ const Hero = (props) => {
         <h2 className="hero__text ">{props.secondLine}</h2>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

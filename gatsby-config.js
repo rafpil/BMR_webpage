@@ -42,9 +42,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-            "Work Sans\:300, 400, 500",
-          ],
+        fonts: ["Work Sans:300, 400, 500"],
       },
     },
 
@@ -52,4 +50,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};

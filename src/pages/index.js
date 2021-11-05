@@ -1,6 +1,6 @@
-import * as React from "react"
+import * as React from "react";
 
-import Seo from "../components/seo"
+import Seo from "../components/seo";
 import "../styles_global/styles.scss";
 
 import Layout from "../components/layout/layout";
@@ -14,13 +14,12 @@ import Gallery from "../page-elements/gallery/gallery";
 import Contact from "../page-elements/contact/contact";
 import Map from "../page-elements/map/map";
 
-
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <Hero
-        firstLine="BMR Sp.&nbsp;z&nbsp;o.&nbsp;o."
-        secondLine="Budujemy nowoczesne drogi"
+      firstLine="BMR Sp.&nbsp;z&nbsp;o.&nbsp;o."
+      secondLine="Budujemy nowoczesne drogi"
     />
     <About />
     <Services />
@@ -29,6 +28,6 @@ const IndexPage = () => (
     <Contact />
     <Map />
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

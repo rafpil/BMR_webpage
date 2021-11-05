@@ -2,6 +2,7 @@ import * as React from "react";
 import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
+import Navigation from "../../page-elements/navbar/navbar";
 import Footer from "../../page-elements/footer/footer";
 import Copyright from "../../page-elements/copyright/copyright";
 
@@ -20,6 +21,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Navigation />
       <main>{children}</main>
       <Footer />
       <Copyright />
