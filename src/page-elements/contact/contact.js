@@ -47,18 +47,25 @@ function Contact() {
           </div>
         </div>
         <p>Lub przy pomocy poniższego formularza:</p>
-        <form className="row">
+        <form
+          action="https://formspree.io/f/mzbylbdr"
+          method="POST"
+          className="row"
+        >
           <div className="col-xs-12 col-xl-6 mb-3">
             <input
               type="text"
+              name="Imię i nazwisko: "
               className="form-control"
               placeholder="* Imię i nazwisko"
               aria-label="Imię i nazwisko"
+              required
             />
           </div>
           <div className="col-xs-12 col-xl-6 mb-3">
             <input
-              type="text"
+              type="email"
+              name="Adres e-mail: "
               className="form-control"
               placeholder="Adres e-mail"
               aria-label="Adres e-mail"
@@ -68,6 +75,7 @@ function Contact() {
           <div className="col-xs-12 col-xl-6 mb-3">
             <input
               type="text"
+              name="Nazwa firmy: "
               className="form-control"
               placeholder="Nazwa firmy"
               aria-label="Nazwa firmy"
@@ -76,18 +84,23 @@ function Contact() {
 
           <div className="col-xs-12 col-xl-6 mb-3">
             <input
-              type="text"
+              type="tel"
+              pattern="(?<!\w)(\(?(\+|00)?48\)?)?[ -]?\d{3}[ -]?\d{3}[ -]?\d{3}(?!\w)"
+              name="Numer telefonu kontaktowego: "
               className="form-control"
-              placeholder="* Numer telefonu"
+              placeholder="* Numer telefonu (format: 111-111-111)"
               aria-label="Numer telefonu"
+              required
             />
           </div>
 
           <div className="col-12 mb-3">
             <textarea
+              name="Wiadomość: "
               className="form-control"
               placeholder="* Twoja wiadomość"
               aria-label="Twoja wiadomość"
+              required
             ></textarea>
           </div>
           <div className="col-12">
