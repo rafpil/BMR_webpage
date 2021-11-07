@@ -88,7 +88,7 @@ function Contact() {
               pattern="(?<!\w)(\(?(\+|00)?48\)?)?[ -]?\d{3}[ -]?\d{3}[ -]?\d{3}(?!\w)"
               name="Numer telefonu kontaktowego: "
               className="form-control"
-              placeholder="* Numer telefonu (format: 111-111-111)"
+              placeholder="* Nr tel. w formacie 111-111-111"
               aria-label="Numer telefonu"
               required
             />
