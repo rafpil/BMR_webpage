@@ -22,9 +22,11 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navigation />
-      <main>{children}</main>
-      <Footer />
-      <Copyright />
+        <main>{children}</main>
+      <footer>
+        <Footer />
+        <Copyright />
+      </footer>
     </>
   );
 };

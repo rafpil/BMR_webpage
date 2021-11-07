@@ -1,5 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./variables.scss";
+@import "./mixins.scss";
+
 
 html {
     scroll-behavior: smooth;
@@ -16,10 +18,19 @@ body {
     background-color: $grey-2;
     position: relative;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 
     & *:focus-visible {
         outline: 2px solid $orange;
     }
+}
+
+#gatsby-focus-wrapper,
+#___gatsby {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .section-header {
@@ -32,4 +43,19 @@ body {
         color: $orange;
         animation: markMenu 1s;
     }
+}
+
+.not-found-wraper {
+    text-align: center;
+    padding: 9rem 0 3rem 0;
+
+    a {
+        display: block;
+        @include link;
+        padding: 2rem 0;
+    }
+}
+
+footer {
+    margin-top: auto;
 }
