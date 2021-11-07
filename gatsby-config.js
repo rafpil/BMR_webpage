@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `BMR Sp. z o. o. - landing page`,
+    description: `BMR Sp. z o. o. - profesjonalny wykonawca inwestycji drogowych`,
+    author: `@Rafał`,
+    siteUrl: `https://www.bmr.pl/`,
+    keywords: [`budowa dróg, drogi, droga, chodniki, chodnik, wynajem znaków`],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -32,11 +33,8 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/gatsby-icon.png`,
       },
     },
     {
@@ -45,9 +43,5 @@ module.exports = {
         fonts: ["Work Sans:300,400,500"],
       },
     },
-
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 };
