@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `BMR Sp. z o. o. - landing page`,
+    title: `BMR Sp. z o. o.`,
     description: `BMR Sp. z o. o. - profesjonalny wykonawca inwestycji drogowych`,
     author: `@Rafał`,
     siteUrl: `https://www.bmr.pl/`,
-    keywords: [`budowa dróg, drogi, droga, chodniki, chodnik, wynajem znaków`],
+    keywords: [`budowa dróg, drogi, droga, chodniki, chodnik, wynajem znaków, roboty ziemne, organizacja ruchu, brukarstwo, remont nawierzchni, transport materiałów, roboty inwestycyjne, inwestycje drogowe`],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
