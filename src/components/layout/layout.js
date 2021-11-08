@@ -1,6 +1,5 @@
 import * as React from "react";
 import PropTypes from "prop-types";
-import { useStaticQuery, graphql } from "gatsby";
 
 import Navigation from "../../page-elements/navbar/navbar";
 import Footer from "../../page-elements/footer/footer";
@@ -9,16 +8,6 @@ import Copyright from "../../page-elements/copyright/copyright";
 import "./layout.css";
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
-
   return (
     <>
       <Navigation />
