@@ -5,7 +5,9 @@ module.exports = {
     author: `@Rafał`,
     siteUrl: `https://www.bmr.pl/`,
     keywords: [`budowa dróg, drogi, droga, chodniki, chodnik, wynajem znaków, roboty ziemne, organizacja ruchu, brukarstwo, remont nawierzchni, transport materiałów, roboty inwestycyjne, inwestycje drogowe`],
+    imageSocial: 'https://rafaldocs.bitbucket.io/bmr/icons/icon-512x512.png'
   },
+  pathPrefix: `/bmr`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
